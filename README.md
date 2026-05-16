@@ -8,6 +8,8 @@
 
 PraisonAI is a production-ready multi-agent AI framework that enables you to build, orchestrate, and deploy AI agents with minimal code. It supports multiple LLM providers and integrates seamlessly with tools like AutoGen and CrewAI.
 
+> **Personal fork note:** I'm using this primarily with Ollama for local model experimentation. See my notes in [`NOTES.md`](NOTES.md) for setup tips.
+
 ## Features
 
 - 🤖 **Multi-Agent Orchestration** — Coordinate multiple AI agents to solve complex tasks
@@ -83,6 +85,7 @@ Key variables:
 | `ANTHROPIC_API_KEY` | Anthropic (Claude) API key |
 | `GOOGLE_API_KEY` | Google Gemini API key |
 | `OPENAI_MODEL_NAME` | Default model (e.g. `gpt-4o`) |
+| `OLLAMA_HOST` | Ollama server URL (default: `http://localhost:11434`) |
 
 ## Documentation
 
@@ -102,8 +105,3 @@ Contributions are welcome! Please open an issue or pull request.
 
 - 🐛 [Bug Reports](.github/ISSUE_TEMPLATE/bug_report.md)
 - 💬 [Discussions](https://github.com/MervinPraison/PraisonAI/discussions)
-- ☕ [Sponsor](.github/FUNDING.yml)
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
