@@ -87,6 +87,8 @@ Key variables:
 | `OPENAI_MODEL_NAME` | Default model (e.g. `gpt-4o`) |
 | `OLLAMA_HOST` | Ollama server URL (default: `http://localhost:11434`) |
 
+> **My Ollama setup:** I run Ollama on a separate machine on my LAN, so I set `OLLAMA_HOST=http://192.168.1.50:11434` in my `.env`. Works great with `llama3` and `mistral` for most agent tasks.
+
 ## Documentation
 
 Full documentation is available at [docs.praison.ai](https://docs.praison.ai).
@@ -97,11 +99,6 @@ Contributions are welcome! Please open an issue or pull request.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feat/my-feature`)
-3. Commit your changes (`git commit -m 'feat: add my feature'`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
 4. Push to the branch (`git push origin feat/my-feature`)
 5. Open a Pull Request
-
-## Support
-
-- 🐛 [Bug Reports](.github/ISSUE_TEMPLATE/bug_report.md)
-- 💬 [Discussions](https://github.com/MervinPraison/PraisonAI/discussions)
